@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="template_chooser_widget">
+        <h3>Choose Your Border Design</h3>
+        <p><b>Unlimited Print Booth</b> included either a 2×6 Strip, 4×6 Postcard Print, or Monogram/Logos.<br>  
+            <b>Digital & 360 Video Booth</b> please choose a Square  or Monogram / Logos.<br> 
+            <b>Glam Booth</b> please choose Monogram / Logos Design
+        </p>
+        <div class="tabs">
+            <div class="tab active" data-tab="strips">
+                <button>2x6 Strips</button>
+            </div>
+            <div class="tab" data-tab="postcard">
+                <button>4x6 Postcard</button>
+            </div>
+            <div class="tab" data-tab="square">
+                <button>Square</button>
+            </div>
+            <div class="tab" data-tab="monogram_logos">
+                <button>Monogram /  Logos</button>
+            </div>
+        </div>
+        <div class="tabs-content">
+            <div class="tab" data-tab="strips">
+                <button class="active">2x6 Strips</button>
+            </div>
+            <div id="strips" class="content-tabs">
+                <h3>
+                    Choose Your Photo Border
+                </h3>
+                <div class="levels">
+                    <div class="one step filled">1</div>
+                    <div class="two step">2</div>
+                </div>
+                <div class="text">Which Template Would You Like</div>
+                <div class="span">Photo Border</div>
+                <div class="items content-tab-1 ">
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/Black-Border-Eligant.png" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/Black-Border-Eligant.png" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/Black-Border-Eligant.png" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/Black-Border-Eligant.png" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/Black-Border-Eligant.png" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/Black-Border-Eligant.png" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/Black-Border-Eligant.png" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/Black-Border-Eligant.png" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                </div>
+                <div class="form_data d-none">
+                    <form action="">
+                        <div class="row-1">
+                            <span class="yourname generic">
+                                <label for="fullname">Your Name<span class="required">*</span></label>
+                                <input id="fullname" type="text" required>
+                            </span>
+                            <span class="booking generic">
+                                <label for="bookingemail">Booking Email<span class="required">*</span></label>
+                                <input type="email" required>
+                            </span>
+                        </div>
+                        <div class="row-2">
+                            <span class="date generic">
+                                <label for="eventdate">Event Date</label>
+                                <input id="eventdate" type="date">
+                            </span>
+                            <span class="phone generic">
+                                <label for="phoneno">Your Phone<span class="required">*</span></label>
+                                <input type="tel" required>
+                            </span>
+                        </div>
+                        <div class="row-3">
+                            <div class="description">
+                                <label for="detail">Border Text & Additional Design Details</label>
+                                <textarea name="detail" id="" rows="4"></textarea>
+                            </div>
+                            <div class="fileimg">
+                                <label for="fileimg">File Upload: .jpg or .png</label>
+                                <input type="file" id="fileimg" name="fileimg">
+                            </div>
+                        </div>
+                        <div class="row-4">
+                            <button type="button" class="prev">Previous</button>
+                            <button type="submit" class="submit">Submit Design</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="tab" data-tab="postcard">
+                <button class="active">2x6 Strips</button>
+            </div>
+            <div id="postcard" class="content-tabs d-none">
+                <h3>
+                    Choose Your Photo Border
+                </h3>
+                <div class="levels">
+                    <div class="one step filled">1</div>
+                    <div class="two step">2</div>
+                </div>
+                <div class="text">Which Template Would You Like</div>
+                <div class="span">Photo Border</div>
+                <div class="items content-tab-2" style="grid-template-columns: repeat(3, minmax(0, 1fr));">
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/2nd-1.jpg" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/2nd-1.jpg" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/2nd-1.jpg" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/2nd-1.jpg" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/2nd-1.jpg" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/2nd-1.jpg" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/2nd-1.jpg" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/2nd-1.jpg" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                </div>
+                <div class="form_data d-none">
+                    <form action="">
+                        <div class="row-1">
+                            <span class="yourname generic">
+                                <label for="fullname">Your Name<span class="required">*</span></label>
+                                <input id="fullname" type="text" required>
+                            </span>
+                            <span class="booking generic">
+                                <label for="bookingemail">Booking Email<span class="required">*</span></label>
+                                <input type="email" required>
+                            </span>
+                        </div>
+                        <div class="row-2">
+                            <span class="date generic">
+                                <label for="eventdate">Event Date</label>
+                                <input id="eventdate" type="date">
+                            </span>
+                            <span class="phone generic">
+                                <label for="phoneno">Your Phone<span class="required">*</span></label>
+                                <input type="tel" required>
+                            </span>
+                        </div>
+                        <div class="row-3">
+                            <div class="description">
+                                <label for="detail">Border Text & Additional Design Details</label>
+                                <textarea name="detail" id="" rows="4"></textarea>
+                            </div>
+                            <div class="fileimg">
+                                <label for="fileimg">File Upload: .jpg or .png</label>
+                                <input type="file" id="fileimg" name="fileimg">
+                            </div>
+                        </div>
+                        <div class="row-4">
+                            <button type="button" class="prev">Previous</button>
+                            <button type="submit" class="submit">Submit Design</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="tab" data-tab="square">
+                <button class="active">2x6 Strips</button>
+            </div>
+            <div id="square" class="content-tabs d-none">
+                <h3>
+                    Choose Your Photo Border
+                </h3>
+                <div class="levels">
+                    <div class="one step filled">1</div>
+                    <div class="two step">2</div>
+                </div>
+                <div class="text">Which Template Would You Like</div>
+                <div class="span">Photo Border</div>
+                <div class="items content-tab-2" style="grid-template-columns: repeat(3, minmax(0, 1fr));">
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/square.png" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/square.png" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/square.png" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/square.png" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/square.png" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/square.png" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/square.png" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/square.png" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                </div>
+                <div class="form_data d-none">
+                    <form action="">
+                        <div class="row-1">
+                            <span class="yourname generic">
+                                <label for="fullname">Your Name<span class="required">*</span></label>
+                                <input id="fullname" type="text" required>
+                            </span>
+                            <span class="booking generic">
+                                <label for="bookingemail">Booking Email<span class="required">*</span></label>
+                                <input type="email" required>
+                            </span>
+                        </div>
+                        <div class="row-2">
+                            <span class="date generic">
+                                <label for="eventdate">Event Date</label>
+                                <input id="eventdate" type="date">
+                            </span>
+                            <span class="phone generic">
+                                <label for="phoneno">Your Phone<span class="required">*</span></label>
+                                <input type="tel" required>
+                            </span>
+                        </div>
+                        <div class="row-3">
+                            <div class="description">
+                                <label for="detail">Border Text & Additional Design Details</label>
+                                <textarea name="detail" id="" rows="4"></textarea>
+                            </div>
+                            <div class="fileimg">
+                                <label for="fileimg">File Upload: .jpg or .png</label>
+                                <input type="file" id="fileimg" name="fileimg">
+                            </div>
+                        </div>
+                        <div class="row-4">
+                            <button type="button" class="prev">Previous</button>
+                            <button type="submit" class="submit">Submit Design</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="tab" data-tab="monogram_logos">
+                <button class="active">2x6 Strips</button>
+            </div>
+            <div id="monogram_logos" class="content-tabs d-none">
+                <h3>
+                    Choose Your Photo Border
+                </h3>
+                <div class="levels">
+                    <div class="one step filled">1</div>
+                    <div class="two step">2</div>
+                </div>
+                <div class="text">Which Template Would You Like</div>
+                <div class="span">Photo Border</div>
+                <div class="items content-tab-2" style="grid-template-columns: repeat(3, minmax(0, 1fr));">
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/Monogram.png" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/Monogram.png" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/Monogram.png" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/Monogram.png" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/Monogram.png" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/Monogram.png" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/Monogram.png" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="assets/images/Monogram.png" alt="">
+                        </div>
+                        <div class="title">Elegant Black</div>
+                    </div>
+                </div>
+                <div class="form_data d-none">
+                    <form action="">
+                        <div class="row-1">
+                            <span class="yourname generic">
+                                <label for="fullname">Your Name<span class="required">*</span></label>
+                                <input id="fullname" type="text" required>
+                            </span>
+                            <span class="booking generic">
+                                <label for="bookingemail">Booking Email<span class="required">*</span></label>
+                                <input type="email" required>
+                            </span>
+                        </div>
+                        <div class="row-2">
+                            <span class="date generic">
+                                <label for="eventdate">Event Date</label>
+                                <input id="eventdate" type="date">
+                            </span>
+                            <span class="phone generic">
+                                <label for="phoneno">Your Phone<span class="required">*</span></label>
+                                <input type="tel" required>
+                            </span>
+                        </div>
+                        <div class="row-3">
+                            <div class="description">
+                                <label for="detail">Border Text & Additional Design Details</label>
+                                <textarea name="detail" id="" rows="4"></textarea>
+                            </div>
+                            <div class="fileimg">
+                                <label for="fileimg">File Upload: .jpg or .png</label>
+                                <input type="file" id="fileimg" name="fileimg">
+                            </div>
+                        </div>
+                        <div class="row-4">
+                            <button type="button" class="prev">Previous</button>
+                            <button type="submit" class="submit">Submit Design</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
